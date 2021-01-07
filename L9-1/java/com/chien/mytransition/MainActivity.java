@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //建立動畫物件
+        //建立動畫物件 這是切換頁面(Activity)時會看到的動畫
         Transition explode = TransitionInflater.from(this).inflateTransition(android.R.transition.explode);
         Transition slide = TransitionInflater.from(this).inflateTransition(android.R.transition.slide_left);
         Transition fade = TransitionInflater.from(this).inflateTransition(android.R.transition.fade);
