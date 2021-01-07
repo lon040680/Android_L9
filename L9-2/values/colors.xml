@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- 首頁 -->
+    <color name="index1">#FF8989FF</color>
+    <color name="index2">#6278B8</color>
+    <color name="index3">#FFFF9999</color>
+    <color name="index4">#FFB36B6B</color>
+    <color name="index5">#FFFFFF99</color>
+
+    <!-- ROOM -->
+    <color name="r1">#3E3EFB</color>
+    <color name="r2">#191A60</color>
+    <color name="r3">#A14848</color>
+    <color name="r4">#613636</color>
+    <color name="r5">#959537</color>
+</resources>
