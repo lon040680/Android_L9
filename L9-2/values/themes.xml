@@ -1,5 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
+    //預設主題顏色
     <style name="Theme.MyStyle_Theme" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
@@ -13,7 +14,8 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
-
+    
+    //自訂主題顏色
     <style name="myThemeDay" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <item name="colorPrimary">@color/index3</item>
         <item name="colorPrimaryVariant">@color/index2</item>
@@ -22,7 +24,8 @@
         <item name="android:textColor">@color/index4</item>
         <item name="android:textSize">32sp</item>
     </style>
-
+    
+     //自訂主題顏色
     <style name="textView01" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <item name="android:textColor">@color/r2</item>
         <item name="android:textSize">32sp</item>
