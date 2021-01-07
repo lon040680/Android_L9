@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MyListView01</string>
+    <string-array name="fastfood">
+        <item>COCA Light</item>
+        <item>COCA Zero</item>
+        <item>COCA</item>
+        <item>French Fries</item>
+        <item>Hamburger</item>
+        <item>KFC</item>
+        <item>Big Mac</item>
+    </string-array>
+
+    <string name="no_record">沒有資料顯示</string>
+</resources>
