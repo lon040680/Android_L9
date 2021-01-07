@@ -16,13 +16,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //建立動畫物件 這是切換頁面(Activity)時會看到的動畫
+        //建立動畫物件 這是切換頁面(Activity)時可以看到的動畫 設定了四個 
         Transition explode = TransitionInflater.from(this).inflateTransition(android.R.transition.explode);
         Transition slide = TransitionInflater.from(this).inflateTransition(android.R.transition.slide_left);
         Transition fade = TransitionInflater.from(this).inflateTransition(android.R.transition.fade);
         Transition myfade = TransitionInflater.from(this).inflateTransition(R.transition.fade);
 
-        //指定執行時間點
+        //指定執行時間點 選擇上方設定 頁面 進(setEnterTransition) 出(setExitTransition) 的動畫
         getWindow().setEnterTransition(myfade);
         getWindow().setExitTransition(fade);
     }
